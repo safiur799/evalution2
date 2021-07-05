@@ -1,0 +1,87 @@
+#parent {
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+}
+#child1,
+#child2,
+#child3 {
+  border: 1px solid black;
+  flex-direction: row;
+  flex-basis: 30%;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+child1 > placeholer {
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+  background-color: red;
+}
+#child1 {
+  background-color: yellow;
+  text-emphasis-color: white;
+}
+#child2 {
+  background-color: blue;
+}
+#child3 {
+  background-color: skyblue;
+}
+#child4 {
+  text-align: center;
+}
+#parent2 {
+  width: 50%;
+  margin: auto;
+}
+.middle {
+  border: 1px solid black;
+  flex-direction: row;
+  flex-basis: 30%;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+#graduate {
+  background-color: skyblue;
+}
+
+.img {
+  width: 300px;
+  height: 170px;
+}
+#parent2 {
+  display: flex;
+}
+
+#parent3 {
+  display: flex;
+}
+.program {
+  border: 1px solid black;
+  flex-direction: row;
+  flex-basis: 30%;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+#parent5 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+.button1 {
+  background-color: skyblue;
+  float: left;
+  margin: 60px;
+  margin-left: 150px;
+  padding: 20px;
+}
+#button2 {
+  margin-left: 250px;
+}
+#button3 {
+  margin-left: 250px;
+}
