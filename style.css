@@ -12,6 +12,14 @@
   margin: 5px;
   padding: 5px;
   border-radius: 10px;
+  flex-wrap: wrap;
+  -ms-flex-item-align: center;
+}
+.placeholder {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: red;
 }
 child1 > placeholer {
   height: 200px;
